@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Currency calculator</string>
+    <string name="title_activity_travel_helper">TravelHelper</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="travel_helper">Travel helper</string>
+    <string name="if_you_are_planning_a_trip_you_are_going_to_need_some_information_about_your_destination_country_here_you_can_find_out_everything_about_any_country_in_the_world_for_example_what_s_the_status_of_living_there_how_much_money_you_should_take_with_you_is_it_dangerouse_country_etc">If you are planning a trip, you are going to need some information about your destination country. Here, you can find out everything about any country in the world. For example, what\'s the status of living there, how much money you should take with you, is it dangerouse country, etc...</string>
+    <string name="choose_country">Choose country</string>
+    <string name="opis_afganistana">Afganistan is a country located in the south west part of Asia</string>
+    <string-array name="Countries">
+        <item>Afghanistan</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bangladesh</item>
+        <item>Bahrain</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+    </string-array>
+
+
+    <string-array name="valute">
+        <item>HRK</item>
+        <item>EUR</item>
+        <item>GBR</item>
+        <item>BHM</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_currency_calculator">CurrencyCalculator</string>
+    <string name="currency_calculator">Currency Calculator</string>
+
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/travelHelper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#00BCD4"
+    tools:context=".TravelHelper">
+
+    <TextView
+        android:id="@+id/tvTravelHelper"
+        android:layout_width="179dp"
+        android:layout_height="36dp"
+        android:includeFontPadding="true"
+        android:text="@string/travel_helper"
+        android:textDirection="anyRtl"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/tvEntry"
+        android:layout_width="362dp"
+        android:layout_height="170dp"
+        android:text="@string/if_you_are_planning_a_trip_you_are_going_to_need_some_information_about_your_destination_country_here_you_can_find_out_everything_about_any_country_in_the_world_for_example_what_s_the_status_of_living_there_how_much_money_you_should_take_with_you_is_it_dangerouse_country_etc"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <!-- <Button
+        android:id="@+id/btnChooseCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D12828"
+        android:text="@string/choose_country"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402" />-->
+
+    <FrameLayout
+
+        android:id="@+id/fragment_travel"
+        android:name="hr.ferit.orwma_aplikacija.pocetni_fragment"
+        android:layout_width="406dp"
+        android:layout_height="388dp"
+        android:background="#00BCD4"
+        android:backgroundTint="#AAE4EC"
+        android:fadeScrollbars="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryinfo"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/countryinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose country for more info"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+</androidx.constraintlayout.widget.ConstraintLayout>
